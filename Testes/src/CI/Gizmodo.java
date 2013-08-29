@@ -61,7 +61,7 @@ public class Gizmodo extends TestCase
 	  WebElement botao = driver.findElement(By.xpath("html/body/div[2]/div/div[1]/div[2]/div[2]/div[2]/form/div/input[2]"));
 	  busca.sendKeys("Opala");
 	  botao.click();
-	  Thread.sleep(8000);
+	  Thread.sleep(3000);
 	  
 	  
   }
