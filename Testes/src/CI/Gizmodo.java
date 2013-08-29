@@ -57,6 +57,9 @@ public class Gizmodo extends TestCase
   public void testeNavegacao() throws Exception 
   {
 	  driver.get("http://www.autocarro.com.br/");
+	  WebElement busca = driver.findElement(By.id("ab"));
+	  busca.sendKeys("Opala");
+	  Thread.sleep(8000);
 	  
 	  
   }
